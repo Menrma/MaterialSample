@@ -1,5 +1,3 @@
-// @import "@angular/material/prebuilt-themes/deeppurple-amber.css";
-
 @use '@angular/material' as mat;
 
 @import "fonts";
@@ -7,6 +5,7 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
 
 $dark-text: #000000;
 $dark-primary-text: rgba($dark-text, 0.87);
@@ -139,6 +138,7 @@ $mat-primary: (
     darker: $dark-primary-text,
   )
 );
+
 $theme-primary: mat.define-palette($mat-primary, main, lighter, darker);
 
 body {
