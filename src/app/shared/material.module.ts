@@ -12,6 +12,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   exports: [
@@ -26,7 +27,7 @@ import { MatRadioModule } from '@angular/material/radio';
     MatMenuModule,
     MatInputModule,
     MatSelectModule,
-    MatRadioModule
-  ]
+    MatRadioModule,
+    MatDividerModule  ]
 })
 export class MaterialModule { }
