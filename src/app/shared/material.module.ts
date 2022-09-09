@@ -13,6 +13,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatSnackBarModule} from '@angular/material/snack-bar'; 
 
 @NgModule({
   exports: [
@@ -28,6 +30,9 @@ import {MatDividerModule} from '@angular/material/divider';
     MatInputModule,
     MatSelectModule,
     MatRadioModule,
-    MatDividerModule  ]
+    MatDividerModule,
+    MatDialogModule,
+    MatSnackBarModule
+  ]
 })
 export class MaterialModule { }

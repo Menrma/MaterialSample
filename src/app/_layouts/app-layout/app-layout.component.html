@@ -1,7 +1,7 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav mat-elevation-z10" fixedInViewport
       [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-      [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="opened">
+      [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="true">
     <mat-toolbar>
       <img src="assets/images/blickle_logo.svg" style="width: 200px;" />
     </mat-toolbar>
@@ -29,7 +29,7 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Side nav toggle icon">arrow_back</mat-icon>
       </button>
-      <span>MaterialSample</span>
+      <h1>Material Sample :-)1</h1>
     </mat-toolbar>
   
     <router-outlet></router-outlet>
